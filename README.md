@@ -8,10 +8,16 @@ A quick guide for my own reference so I can "start from scratch" without actuall
 
 ## Edit Default Theme Content
 
-### General
-**Breadcrumb account**
-* Title: `My Account`
-
-### Cart
-**Cart**
-* Note: `Gift Note`
+| Section            | Edit |
+| :----------------- | :----------------- |
+| General            | **Breadcrumb account**<br>Title: `My Account` |
+| Collections        | |
+| Products           | |
+| Cart               | **Cart**<br>Note: `Gift Note` |
+| Blog               | |
+| Search             | |
+| Customers          | |
+| Gift card          | |
+| Store availability | |
+| Checkout & system  | |
+| Accounts           | |
