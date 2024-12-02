@@ -7,6 +7,7 @@ A quick guide for my own reference so I can "start from scratch" without actuall
 2. [Custom Files](#custom-files)
 3. [Customize Setup](#customize-setup)
 4. [Icons](#icons)
+5. [Header](#header)
 
 
 ## Theme Content
@@ -130,4 +131,20 @@ Search for `{%- elsif icon == "cart" -%}` and replace section for cart, account,
 {%- elsif icon == "close" -%}
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M192 233.4L59.5 100.9 36.9 123.5 169.4 256 36.9 388.5l22.6 22.6L192 278.6 324.5 411.1l22.6-22.6L214.6 256 347.1 123.5l-22.6-22.6L192 233.4z"/></svg>
+```
+
+
+## Header
+
+### Edit code
+
+**sections/header.liquid**
+
+Search for first `<div class="site-nav-container">` and paste above:
+```
+{% comment %} [LG] Logo Mark for Sticky Header {% endcomment %}
+<div class="logo-sticky">
+  <a href="/"><img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/files/LogoMark-Black.png?v=1669569930" /></a>
+</div>
+{% comment %} [LG] End Logo Mark for Sticky Header {% endcomment %}
 ```
